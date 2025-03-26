@@ -74,6 +74,22 @@
                 </RadioButton>
             </StackLayout>
 
+            <StackLayout
+                Padding="0,10,0,0"
+                HeightRequest="50"
+                Orientation="Horizontal"
+                RadioButtonGroup.GroupName="RadioButtonGroup3">
+                <RadioButton
+                    Content="{Binding Count}"
+                    ControlTemplate="{StaticResource RadioButtonControlTemplate}"
+                    Value="0" />
+                <RadioButton
+                    Content="{Binding Count}"
+                    ControlTemplate="{StaticResource RadioButtonControlTemplate}"
+                    Value="1" />
+
+            </StackLayout>
+
             <Button Command="{Binding IncrementCommand}" Text="Increment" />
         </VerticalStackLayout>
     </ScrollView>

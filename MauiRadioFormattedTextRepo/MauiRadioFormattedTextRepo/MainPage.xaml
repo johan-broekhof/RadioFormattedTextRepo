@@ -20,6 +20,8 @@
                 </Label.FormattedText>
             </Label>
 
+            <BoxView BackgroundColor="Black" HeightRequest="1" />
+
             <StackLayout
                 Padding="0,10,0,0"
                 HeightRequest="50"
@@ -51,6 +53,8 @@
                 </RadioButton>
             </StackLayout>
 
+            <BoxView BackgroundColor="Black" HeightRequest="1" />
+
             <StackLayout
                 Padding="0,10,0,0"
                 HeightRequest="50"
@@ -73,6 +77,8 @@
                     </RadioButton.Content>
                 </RadioButton>
             </StackLayout>
+
+            <BoxView BackgroundColor="Black" HeightRequest="1" />
 
             <StackLayout
                 Padding="0,10,0,0"

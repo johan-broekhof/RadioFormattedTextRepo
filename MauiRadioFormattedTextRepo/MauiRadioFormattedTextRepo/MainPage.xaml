@@ -45,6 +45,8 @@
                     </RadioButton.Content>
                 </RadioButton>
             </StackLayout>
+
+            <Button Command="{Binding IncrementCommand}" Text="Increment" />
         </VerticalStackLayout>
     </ScrollView>
 
